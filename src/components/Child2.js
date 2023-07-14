@@ -1,7 +1,7 @@
 import React from "react";
 const Child2 = (props) => {
   return (
-    <div>
+    <>
       <h1>Child Component 2</h1>
       <button
         onClick={() => {
@@ -10,7 +10,7 @@ const Child2 = (props) => {
       >
         option 2
       </button>
-    </div>
+    </>
   );
 };
 export default Child2;

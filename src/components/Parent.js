@@ -7,7 +7,7 @@ const Parent = () => {
   const [option, setOption] = useState("");
 
   return (
-    <div>
+    <div className="parent">
       <Child1 setOption={setOption} />
       <Child2 setOption={setOption} />
       <p>Selected option:{option}</p>
